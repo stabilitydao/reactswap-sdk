@@ -1,17 +1,16 @@
 {
-  "name": "@pancakeswap/sdk",
+  "name": "@reactswap/sdk",
   "license": "MIT",
-  "version": "2.4.0",
-  "description": "🛠 An SDK for building applications on top of Pancakeswap.",
+  "version": "2.0.0-1",
+  "description": "🛠 An SDK for building applications on top of ReactSwap.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/pancakeswap/pancake-swap-sdk.git",
+  "repository": "https://github.com/stabilitydao/reactswap-sdk.git",
   "keywords": [
-    "pancakeswap",
-    "bsc"
+    "reactswap"
   ],
   "module": "dist/sdk.esm.js",
   "scripts": {

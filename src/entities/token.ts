@@ -65,21 +65,30 @@ export function currencyEquals(currencyA: Currency, currencyB: Currency): boolea
   }
 }
 
+// WNATIVE, not weth9
 export const WETH = {
   [ChainId.MAINNET]: new Token(
-    ChainId.MAINNET,
-    '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
+    ChainId.POLYGON,
+    '0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270',
     18,
-    'WBNB',
-    'Wrapped BNB',
-    'https://www.binance.org'
+    'WMATIC',
+    'Wrapped MATIC',
+    'https://polygon.technology'
   ),
   [ChainId.TESTNET]: new Token(
-    ChainId.TESTNET,
-    '0xaE8E19eFB41e7b96815649A6a60785e1fbA84C1e',
+    ChainId.ROPSTEN,
+    '0xc778417E063141139Fce010982780140Aa0cD5Ab',
     18,
-    'WBNB',
-    'Wrapped BNB',
-    'https://www.binance.org'
-  )
+    'WETH',
+    'Wrapped ETHER',
+    'https://www.ethereum.org'
+  ),
+  [ChainId.MUMBAI]: new Token(
+      ChainId.MUMBAI,
+      '0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270',
+      18,
+      'WMATIC',
+      'Wrapped MATIC',
+      'https://polygon.technology'
+  ),
 }

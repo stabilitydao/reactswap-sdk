@@ -4,8 +4,37 @@ import JSBI from 'jsbi'
 export type BigintIsh = JSBI | bigint | string
 
 export enum ChainId {
-  MAINNET = 56,
-  TESTNET = 97
+  // noinspection JSNonASCIINames,NonAsciiCharacters
+  MAINNET = 137,
+  TESTNET = 3,
+  ROPSTEN = 3,
+  // RINKEBY = 4,
+  // GÖRLI = 5,
+  // KOVAN = 42,
+  POLYGON = 137,
+  MUMBAI = 80001,
+  // FANTOM = 250,
+  // FANTOM_TESTNET = 4002,
+  // XDAI = 100,
+  // BSC = 56,
+  // BSC_TESTNET = 97,
+  // ARBITRUM = 42161,
+  // ARBITRUM_TESTNET = 79377087078960,
+  // MOONBEAM_TESTNET = 1287,
+  // AVALANCHE = 43114,
+  // AVALANCHE_TESTNET = 43113,
+  // HECO = 128,
+  // HECO_TESTNET = 256,
+  // HARMONY = 1666600000,
+  // HARMONY_TESTNET = 1666700000,
+  // OKEX = 66,
+  // OKEX_TESTNET = 65,
+  // CELO = 42220,
+  // PALM = 11297108109,
+  // PALM_TESTNET = 11297108099,
+  // MOONRIVER = 1285,
+  // FUSE = 122,
+  // TELOS = 40
 }
 
 export enum TradeType {
@@ -19,9 +48,9 @@ export enum Rounding {
   ROUND_UP
 }
 
-export const FACTORY_ADDRESS = '0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73'
+export const FACTORY_ADDRESS = '0xff6dca94678a420190aAee00485c5F2d1B6bae7e'
 
-export const INIT_CODE_HASH = '0x00fb7f630766e6a796048ea87d01acd3068e8ff67d078148a3fa3f4a84f69bd5'
+export const INIT_CODE_HASH = '0xedeccb88a4d2c30e6406944e3b3b22b0806f5aca2fa7edfd90e916bb34c10d43'
 
 export const MINIMUM_LIQUIDITY = JSBI.BigInt(1000)
 

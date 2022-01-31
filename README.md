@@ -1,23 +1,23 @@
-# Pancakeswap SDK
+# ReactSwap SDK
 
 Forked from the [Uniswap SDK](https://github.com/Uniswap/uniswap-v2-sdk/commit/a88048e9c4198a5bdaea00883ca00c8c8e582605).
-
+                                                                                                                                                                                                                                                                                                                            
 You can refer to the Uniswap SDK documentation [uniswap.org](https://uniswap.org/docs/v2/SDK/getting-started/).
 
 ## Running tests
-
+                                                                                                                                                                           
 To run the tests, follow these steps. You must have at least node v10 and [yarn](https://yarnpkg.com/) installed.
 
 First clone the repository:
 
 ```sh
-git clone https://github.com/pancakeswap/pancake-swap-sdk.git
+git clone https://github.com/stabilitydao/react-swap-sdk.git
 ```
 
-Move into the pancakeswap-sdk working directory
+Move into the reactswap-sdk working directory
 
 ```sh
-cd pancakeswap-sdk/
+cd reactswap-sdk/
 ```
 
 Install dependencies
